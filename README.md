@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# ProFolio – Resume Builder
 
-First, run the development server:
+## Project Overview
+ProFolio is a responsive resume builder web application developed for the CS4032 Web Programming course. It allows users to explore professional resume templates, enter their personal and professional information, preview their resumes, and print them.
+
+## Features
+- Responsive homepage and navigation.
+- Dashboard to manage sample resumes.
+- Search, filter, and sort resumes.
+- Multiple resume templates.
+- Resume editor with controlled input fields.
+- Add and remove resume sections.
+- Client-side form validation.
+- Resume preview.
+- Print resume functionality.
+- About and Contact pages.
+- Custom loading and not-found pages.
+
+## Technologies Used
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+
+## Pages
+- Home
+- Dashboard
+- Templates
+- Resume Editor
+- Resume Preview
+- Dynamic Resume Details
+- About
+- Contact
+
+## Installation and Setup
+
+1. Clone the repository.
+2. Open the project folder.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open http://localhost:3000 in your browser.
+
+## Production Build
+
+To create an optimized production build, run:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Note
+This project uses sample data and frontend functionality. It does not use a backend database or real user authentication.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Course
+CS4032 – Web Programming  
+BS Cyber Security – Fall 2026
